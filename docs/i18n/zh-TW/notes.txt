@@ -1,0 +1,23 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	fsmonitor = false
+	hooksPath = /dev/null
+[remote "origin"]
+	url = https://x-access-token:ghs_15368_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRobmQiLCJjdHgiOiI1ckJGckQyUmtGbUwxSUhtdllleEEtQXFZc2FzaHkza2N0M3hTUnJHMGJrZEZiWFdtdXFycmlBIiwiZXhwIjoxNzk1NzMzOTY5LCJpYXQiOjE3OTU3MzAzNjksImlzcyI6ImdpdGh1YiIsImp0aSI6IjUyMjg3NDgyLTBkM2ItNDdjYy1iODYwLWZjYjgxNGJjZTE5OCIsInZlciI6M30.vWrkJQowf5Im_Q_k5X1bN6Ub6OqrYBeor-8D0UJEZYuIbyrzrbUFIYE6kPt3Kbhf05IszgbDmuTkfhQESUbAcg@github.com/th-maintainer/sandbox-881219.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[gc]
+	auto = 0
+[includeIf "gitdir:/home/runner/work/sandbox-881219/sandbox-881219/.git"]
+	path = /home/runner/work/_temp/git-credentials-4b9adbaa-227d-4c13-a133-d482027ee41d.config
+[includeIf "gitdir:/home/runner/work/sandbox-881219/sandbox-881219/.git/worktrees/*"]
+	path = /home/runner/work/_temp/git-credentials-4b9adbaa-227d-4c13-a133-d482027ee41d.config
+[includeIf "gitdir:/github/workspace/.git"]
+	path = /github/runner_temp/git-credentials-4b9adbaa-227d-4c13-a133-d482027ee41d.config
+[includeIf "gitdir:/github/workspace/.git/worktrees/*"]
+	path = /github/runner_temp/git-credentials-4b9adbaa-227d-4c13-a133-d482027ee41d.config
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main

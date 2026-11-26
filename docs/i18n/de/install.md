@@ -1,4 +1,4 @@
-# Installation (de)
+# Instalation (de)
 
 Translated install page for de, paragraph 1. The installation needs a recent version and a stable connection.
 
